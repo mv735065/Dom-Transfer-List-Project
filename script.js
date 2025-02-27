@@ -46,10 +46,15 @@ allLeft.addEventListener("click", () => {
 });
 
 box1.addEventListener("click", () => {
-  console.log("cliked");
 
   disableFunctions();
 });
+
+box3.addEventListener("click", () => {
+
+  disableFunctions();
+});
+
 
 function disableFunctions() {
   let len1 = box1.children.length;
